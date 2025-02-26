@@ -1,0 +1,111 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(23, 41, 56);
+    padding: 20px; /* Espaciado general para evitar que el contenido toque los bordes */
+}
+
+h2 {
+    margin-bottom: 20px; /* Espaciado inferior */
+    text-align: center;
+    font-size: 1.5rem; /* Tamaño relativo */
+    color: #333; /* Color de texto más oscuro */
+}
+
+/* Contenedor principal */
+.contenedor-principal {
+    background-color: white;
+    width: 90%; /* Ancho relativo */
+    max-width: 400px; /* Ancho máximo para pantallas grandes */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Contenedor interno */
+.contenedor-interno {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaciado entre elementos */
+}
+
+/* Estilos para cada sección de color */
+.color {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+label {
+    font-size: 1rem; /* Tamaño relativo */
+    font-weight: bold;
+    margin-bottom: 5px; /* Espaciado inferior */
+}
+
+input[type="range"] {
+    width: 100%; /* Ancho completo */
+    margin: 10px 0; /* Espaciado */
+}
+
+p {
+    font-size: 1rem; /* Tamaño relativo */
+    font-weight: bold;
+    color: #555; /* Color de texto más suave */
+}
+
+/* Media Queries para Responsive Design */
+
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.2rem; /* Tamaño más pequeño en móviles */
+        margin-bottom: 15px; /* Menos espaciado */
+    }
+
+    .contenedor-principal {
+        width: 95%; /* Más ancho en pantallas pequeñas */
+        padding: 15px; /* Menos padding */
+        border-radius: 10px; /* Bordes menos redondeados */
+    }
+
+    .color {
+        font-size: 0.9rem; /* Tamaño de fuente más pequeño */
+    }
+
+    input[type="range"] {
+        width: 90%; /* Menos ancho en móviles */
+    }
+}
+
+/* Pantallas muy pequeñas (ej: móviles en orientación vertical) */
+@media (max-width: 360px) {
+    h2 {
+        font-size: 1rem; /* Tamaño aún más pequeño */
+        margin-bottom: 10px; /* Menos espaciado */
+    }
+
+    .contenedor-principal {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        padding: 10px; /* Menos padding */
+        border-radius: 8px; /* Bordes menos redondeados */
+    }
+
+    .color {
+        font-size: 0.8rem; /* Tamaño de fuente más pequeño */
+    }
+
+    input[type="range"] {
+        width: 85%; /* Menos ancho en móviles pequeños */
+    }
+}
