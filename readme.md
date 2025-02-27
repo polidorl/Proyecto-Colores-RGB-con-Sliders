@@ -48,6 +48,6 @@ Explicacion detallada:
      c. Se llama a la función actualizarColor para cambiar el color de fondo con los nuevos valores.
 *  Permite que la interfaz sea interactiva y responda en tiempo real a las acciones del usuario.
 
-
+https://polidorl.github.io/Proyecto-Colores-RGB-con-Sliders/
 
 
