@@ -50,7 +50,7 @@ Explicacion detallada:
 
 https://polidorl.github.io/Proyecto-Colores-RGB-con-Sliders/
 
-Proyecto-Colores-RGB-con-Sliders 
+https://github.com/polidorl/Proyecto-Colores-RGB-con-Sliders
 
 
 
